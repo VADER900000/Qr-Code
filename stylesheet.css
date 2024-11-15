@@ -2,26 +2,46 @@
 
 body{
   background-color: #d5e1ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
 }
 .qrCodeContainer{
   font-family: Outfit;
-  font-weight: 700;
-  margin: auto;
-}
-.paragraph2InQrCode{
-  font-family: Outfit;
   font-weight: 400;
   margin: auto;
+  align-items: center;
 }
+
 .Qrcode{
-  width: 40%;
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .QrCodeMainContainer{
 
   border: 3px solid rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #ffffff;
   margin: auto;
   text-align: center;
-  width: 1000px;
+  width: 20%;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
+}
+.bottomParagraph{
+  font-weight: 250;
+  width: 85%;
+  margin: auto;
+  font-size: large;
+}
+.topParagraph{
+  width: 85%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 700;
 }
